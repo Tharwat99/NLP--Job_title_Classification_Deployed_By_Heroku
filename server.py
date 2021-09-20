@@ -5,6 +5,11 @@ from joblib import load
 #Defining App !
 app = Flask(__name__)
 api = Api(app)
+
+#home route
+@app.route('/')
+def home():
+	return "hello from home"
 # defining route Resource
 class Model(Resource):
     def get(self, job_title):
