@@ -10,3 +10,4 @@ seaborn==0.11.2
 Flask==2.0.1
 Werkzeug==2.0.1
 gensim==3.6.0
+Python==3.6.0
